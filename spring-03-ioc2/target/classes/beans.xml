@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--<bean id="user" class="com.ld.pojo.User">
+    <property name="name" value="LD"></property>
+</bean>-->
+<!--    <bean id="user" class="com.ld.pojo.User">
+       <constructor-arg index="0" value="LD JAVA"></constructor-arg>
+    </bean>-->
+    <bean id="user" class="com.ld.pojo.User">
+        <constructor-arg type="java.lang.String" value="ld java"></constructor-arg>
+    </bean>
+</beans>
